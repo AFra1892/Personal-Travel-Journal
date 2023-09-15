@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family:  'Roboto Condensed', sans-serif;;
 
 }
 
@@ -9,7 +10,7 @@ body {
 nav{
   height: 30px;
   width: 100%;
-  background-color: red;
+  background-color: #ff595e;
   color: white;
   display: flex;
   text-align: center;
@@ -17,6 +18,35 @@ nav{
 }
 h3{
   font-size:17px;
+  padding: 0;
+  margin: 0;
+}
+.card--list{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card--container{
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  padding: 2rem;
+}
+.card--container img{
+  width: 200px;
+  border-radius: 12px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+.card-content h1{
+  padding: 0;
+  margin: 0;
+}
+.card--des{
   padding: 0;
   margin: 0;
 }
